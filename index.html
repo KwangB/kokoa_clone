@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+        <link rel="stylesheet" href="css/style.css"/>
         <title>Chats | Kakao Clone</title>
     </head>
     <body>
@@ -40,20 +41,26 @@
             <ul class="chats__list">
                 <li class="chats__chat  chat">
                     <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="images/kb.jpg"/>
-                        <div class="chat_content">
-                            <span class="chat_username">
-                                KB
-                            </span>
-                            <span class="chat_preview">
-                                Going home
-                            </span>
-                        </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">Yesterday</span>
-                    </div>
+                    <li class="chats_chat friend friend--lg">
+                            <div class="friend_column">
+                                <img src="images/kb.jpg" class="g-avatar friend__avatar"/>
+                                <div class="friend__content">
+                                    <span class="friend__name">
+                                        KB
+                                    </span>
+                                    <span class="friend__bottom-text">
+                                        Going home!
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="friend__column">
+                                <span class="friend__now-listening">
+                                    <span class="chat__timestamp">
+                                        March 8
+                                    </span>
+                                </span>
+                            </div>
+                        </li>
                     </a>
                 </li>
             </ul>
@@ -66,6 +73,7 @@
                             <i class="far fa-user"></i></a></li>
                     <li class="nav__list-item">
                         <a href="index.html" class="nav__list-link">
+                            <div class="nav__badge">8</div>
                             <i class="fas fa-comment"></i></a></li>
                     <li class="nav__list-item">
                         <a href="find.html" class="nav__list-link">
